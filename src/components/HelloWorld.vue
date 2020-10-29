@@ -59,13 +59,17 @@ export default {
 <style scoped>
 h5{
   font-weight: normal;
+  text-align: center;
+  font-size: 13pt;
 }
 h5.head{
-  font-weight: normal;
   margin-top: 20px;
+  text-align: center;
 }
 h4{
+  margin-top: 10px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 ul {
   list-style-type: none;
@@ -73,9 +77,12 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 2px;
 }
 a {
   color: #000000;
+}
+button{
+  align-content: center;
 }
 </style>

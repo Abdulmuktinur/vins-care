@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h5>{{ about1 }}</h5>
+    <h5 class="head">{{ about1 }}</h5>
     <h5>{{ about2 }}</h5>
+    <h5>{{ about3 }}</h5>
     <h4>Pelayanan</h4>
     <ul>
       <li>
@@ -47,9 +47,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: "Welcome to Vin's Care",
-      about1: "Vin's Care, Kami bergerak dalam bidang pelayanan jasa",
-      about2: 'perawatan sepatu yang berlokasi di Sidoarjo, Jawa Timur sob.'
+      about1: "Vin's Care, Kami bergerak dalam bidang ",
+      about2: 'pelayanan jasa perawatan sepatu yang',
+      about3: 'berlokasi di Sidoarjo, Jawa Timur sob.'
     }
   }
 }
@@ -57,9 +57,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h5.head{
   font-weight: normal;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 h4{
   font-weight: bold;

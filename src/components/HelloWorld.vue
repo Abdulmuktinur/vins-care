@@ -38,7 +38,7 @@
         </a>
       </li>
     </ul>
-    <button class="btn btn-warning">Follow Us</button>
+    <a href="https://www.instagram.com/vins_caresidoarjo/" class="btn btn-warning">Follow Us</a>
   </div>
 </template>
 

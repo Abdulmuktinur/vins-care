@@ -57,12 +57,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h5{
+  font-weight: normal;
+}
 h5.head{
   font-weight: normal;
   margin-top: 20px;
-}
-h5{
-  font-weight: normal;
 }
 h4{
   font-weight: bold;

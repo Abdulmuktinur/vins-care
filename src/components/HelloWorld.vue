@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Pelayanan</h2>
+    <h5>{{ about1 }}</h5>
+    <h5>{{ about2 }}</h5>
+    <h4>Pelayanan</h4>
     <ul>
       <li>
         <a
@@ -36,6 +38,7 @@
         </a>
       </li>
     </ul>
+    <button class="btn btn-warning">Follow Us</button>
   </div>
 </template>
 
@@ -44,7 +47,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: "Welcome to Vin's Care"
+      msg: "Welcome to Vin's Care",
+      about1: "Vin's Care, Kami bergerak dalam bidang pelayanan jasa",
+      about2: 'perawatan sepatu yang berlokasi di Sidoarjo, Jawa Timur sob.'
     }
   }
 }
@@ -54,6 +59,10 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  margin-top: 10px;
+}
+h4{
+  font-weight: bold;
 }
 ul {
   list-style-type: none;
@@ -64,6 +73,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #000000;
 }
 </style>

@@ -61,6 +61,9 @@ h5.head{
   font-weight: normal;
   margin-top: 20px;
 }
+h5{
+  font-weight: normal;
+}
 h4{
   font-weight: bold;
 }
@@ -70,7 +73,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 a {
   color: #000000;
